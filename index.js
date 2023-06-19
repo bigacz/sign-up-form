@@ -34,7 +34,6 @@ function checkPasswords() {
 }
 
 function checkPasswordsLength() {
-    length = document.getElementById('confirmPass').length;
-    
+    length = document.getElementById('confirmPass').value.length;
     return length >= 3 && length <= 20
 }
