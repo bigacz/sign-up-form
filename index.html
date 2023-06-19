@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/neo-gen" rel="stylesheet">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/logo.svg" alt="" height="">
+            <span>LEAF</span>
+        </div>
+        <div class="author">
+            <p>Photo by James Eades on Unsplash</p>
+        </div>
+    </header>
+    <main>
+        <p>
+           This is not a real service!<br> You know you need
+           something like this to help you realize your 
+           deepest dreams. <br>Sign up now to get started.
+        </p>
+        <p>You know you want to.</p>
+        <div class="form">
+            <form>
+                <fieldset>
+                    <ul class="inputs">
+                        <li>
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" name="firstName" id="firstName" minlength="3" maxlength="20" required>
+                        </li>
+                        <li>
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email" maxlength="40" required>
+                        </li>
+                        <li>
+                            <label for="pass">PASSWORD</label>
+                            <input type="password" name="pass" id="pass" minlength="3" maxlength="20" required>
+                        </li>
+                    </ul>
+                    <ul class="inputs">
+                        <li>
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" name="lastName" id="lastName" minlength="3" maxlength="20" required>
+                        </li>
+                        <li>
+                            <label for="tel">PHONE NUMBER</label>
+                            <input type="tel" name="tel" pattern="[\d]{9}" maxlength="9" maxlength="9" id="tel">
+                        </li>
+                        <li>
+                            <label for="confirmPass">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirmPass" id="confirmPass" minlength="3" maxlength="20" required>
+                        </li>
+                    </ul>
+                </fieldset>
+                <button class="submit">Submit</button>
+            </form>
+        </div>
+        <p class="credits">Already have an account? <a href="#">Log In</a></p>
+
+    </main>
+</body>
+</html>
